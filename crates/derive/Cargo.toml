@@ -1,0 +1,22 @@
+[package]
+name = "pinocchio-derive"
+description = "Helper derive macros for Pinocchio programs"
+repository = "https://github.com/joeymeere/pinocchio-util"
+keywords = ["pinocchio", "solana"]
+readme = { workspace = true }
+edition = "2021"
+version = "0.0.1"
+license = "MIT"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+pinocchio = { workspace = true }
+
+syn = "2.0.104"
+quote = "1.0.40"
+proc-macro2 = "1.0.95"
+
+[package.metadata.docs.rs]
+features = []

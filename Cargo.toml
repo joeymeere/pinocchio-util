@@ -1,0 +1,15 @@
+[workspace]
+members = ["crates/core", "crates/derive", "example"]
+resolver = "2"
+readme = "README.md"
+
+[workspace.dependencies]
+pinocchio-util = { path = "./crates/core" }
+pinocchio-derive = { path = "./crates/derive" }
+
+pinocchio = "0.8.4"
+
+[profile.fast]
+codegen-units = 16
+inherits = "release"
+opt-level = 2

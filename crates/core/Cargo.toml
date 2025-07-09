@@ -1,0 +1,19 @@
+[package]
+name = "pinocchio-util"
+description = "Lightweight utilities for building Pinocchio programs"
+repository = "https://github.com/joeymeere/pinocchio-util"
+keywords = ["pinocchio", "solana"]
+readme = { workspace = true }
+edition = "2021"
+version = "0.0.1"
+license = "MIT"
+
+[features]
+derive = ["pinocchio-derive"]
+
+[dependencies]
+pinocchio = { workspace = true }
+pinocchio-derive = { workspace = true, optional = true }
+
+[package.metadata.docs.rs]
+features = []
