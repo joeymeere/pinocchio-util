@@ -5,7 +5,7 @@ repository = "https://github.com/joeymeere/pinocchio-util"
 keywords = ["pinocchio", "solana"]
 readme = { workspace = true }
 edition = "2021"
-version = "0.0.1"
+version = "0.1.0"
 license = "MIT"
 
 [features]

@@ -1,5 +1,5 @@
 [workspace]
-members = ["crates/core", "crates/derive", "example"]
+members = ["crates/core", "crates/derive"]
 resolver = "2"
 readme = "README.md"
 

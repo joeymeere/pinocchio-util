@@ -4,7 +4,6 @@ set -ex
 
 workspace_crates=(
     pinocchio-util
-    pinocchio-account-util
 )
 
 for crate in "${workspace_crates[@]}"; do
